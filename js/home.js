@@ -5,6 +5,10 @@ import { skirtumas } from './components/algebra/skirtumas.js';
 import { suma } from './components/algebra/suma.js';
 import { vidurkis } from './components/algebra/vidurkis.js';
 import { vientisasTekstas } from './components/tekstas/vientisasTekstas.js';
+import { firstLetter } from './components/zodis/firstLetter.js';
+import { middleLetter } from './components/zodis/middleLetter.js';
+import { lastLetter } from './components/zodis/lastLetter.js';
+
 
 // EXECUTION
 
@@ -43,3 +47,13 @@ console.log(s4, '->', '');
 
 const s5 = vientisasTekstas(['x']);
 console.log(s5, '->', 'xxx');
+
+const w1 = firstLetter('pavasaris');
+console.log(w1, '->', 'p');
+
+const w2 = middleLetter('pavasaris');
+console.log(w2, '->', 's');
+
+const w3 = lastLetter('pavasaris');
+console.log(w3, '->', 's');
+
