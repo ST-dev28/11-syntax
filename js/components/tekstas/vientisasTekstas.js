@@ -39,9 +39,21 @@ function vientisasTekstas (textList) {
     return answer;
 }
 
-
 export { vientisasTekstas }
 
 
+/*  ARBA
+const vientisasTekstas = textList => {
+    let answer = '';
 
+    for (let i = 0; i < textList.length; i++) {
+        const text = textList[i];
+        answer += pirmaRaide(text);
+        answer += vidurineRaide(text);
+        answer += paskutineRaide(text);
+    }
+
+    return answer;
+}
+*/
 

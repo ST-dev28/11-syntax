@@ -10,8 +10,17 @@ function vidurineRaide(text) {
         return text[vidurinesRaidesIndexas];
 }
 
-
 export { vidurineRaide }
+
+
+/** ARBA
+ * 
+ * @param {string} text Tekstas is kurio rasim vidurine raide
+ * @returns 
+ */
+/*
+ const vidurineRaide = text => text === '' ? '' : text[Math.ceil(text.length / 2 - 1)];
+*/
 
 /*
 
