@@ -10,3 +10,4 @@ function pirmaRaide(text) {
 
 
 export { pirmaRaide }
+
