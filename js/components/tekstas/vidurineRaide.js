@@ -1,5 +1,22 @@
-const wordsM = ['labas', 'rytas'];
-const middleLetters = wordsM.reduce((accumulator, wordsM) => accumulator + wordsM[2], '');
-console.log(middleLetters);
+
+function vidurineRaide(text) {  
+    const ilgis = text.length;
+    const vidurinesRaidesIndexas = Math.ceil(ilgis / 2 - 1);
+    
+    if (text === '') {
+        return '';
+    }
+
+        return text[vidurinesRaidesIndexas];
+}
+
 
 export { vidurineRaide }
+
+/*
+
+tevas -> v - nelyg   5/2-1=1.5
+mano -> a - lyg    4/2-1=1
+
+*/
+

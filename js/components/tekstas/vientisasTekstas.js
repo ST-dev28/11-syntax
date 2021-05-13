@@ -1,4 +1,5 @@
 /*
+UZDUOTIS
 duodamas "array of strings"
 gauti vientisa "string", kuris sudarytas is:
 - zodzio pirmos raides
@@ -15,14 +16,32 @@ function vientisasTekstas - sujungia array i vientisa string
 function pirmaRaide('labas') -> 'l'
 function vidurineRaide('labas') -> 'b'
 function paskutineRaide('labas') -> 's'
+import{ pirmaRaide} from './pirmaRaide.js';
+import{ vidurineRaide} from './vidurineRaide.js';
+import{ paskutineRaide} from './paskutineRaide.js';
 */
 
+import{ pirmaRaide} from './pirmaRaide.js';
+import{ vidurineRaide} from './vidurineRaide.js';
+import{ paskutineRaide} from './paskutineRaide.js';
 
 
-const mixedWords = firstLetters + middleLetters + lastLetters;
-console.log(mixedWords);
+function vientisasTekstas (textList) {
+    let answer = '';
 
 
+    for (let i = 0; i < textList.length; i++) {
+        const text = textList[i];
+        answer += pirmaRaide(text);
+        answer += vidurineRaide(text);
+        answer += paskutineRaide(text);
+    }
+    return answer;
+}
 
 
 export { vientisasTekstas }
+
+
+
+
