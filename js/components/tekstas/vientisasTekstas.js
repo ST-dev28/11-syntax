@@ -16,3 +16,13 @@ function pirmaRaide('labas') -> 'l'
 function vidurineRaide('labas') -> 'b'
 function paskutineRaide('labas') -> 's'
 */
+
+
+
+const mixedWords = firstLetters + middleLetters + lastLetters;
+console.log(mixedWords);
+
+
+
+
+export { vientisasTekstas }
