@@ -9,8 +9,8 @@ function pirmaRaide(text) {
 
 export { pirmaRaide }
 
-/* ARBA
-
+/* ARBA ->
+-> vietoj funkcijos konstanta = funkcijos parametras => if vidus ? return atsakymas : galutinis atsakymas;
 const pirmaRaide = text => text === '' ? '' : text[0];
 
 */
